@@ -1,0 +1,196 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-16T08:54:47.497Z",
+        "line": 5,
+        "name": "validate user name",
+        "description": "",
+        "id": "basic-validation;validate-user-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1713869097,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user send get request with end point users and query param username",
+            "match": {
+              "location": "basic_validation_step_def.the_user_send_get_request_with_end_point_users_and_query_param_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2338394,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "basic_validation_step_def.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 605233649,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be able to see  all the information of  delphine",
+            "match": {
+              "location": "basic_validation_step_def.user_should_be_able_to_see_all_the_information_of_delphine()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T08:54:49.828Z",
+        "line": 12,
+        "name": "validate userId",
+        "description": "",
+        "id": "basic-validation;validate-userid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155553641,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user send get request using the userId of Delphine",
+            "match": {
+              "location": "basic_validation_step_def.the_user_send_get_request_using_the_userId_of_Delphine()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38123,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "basic_validation_step_def.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21413020,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify userId of Delphine",
+            "match": {
+              "location": "basic_validation_step_def.verify_userId_of_Delphine()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-16T08:54:50.005Z",
+        "line": 20,
+        "name": "validate email format",
+        "description": "",
+        "id": "basic-validation;validate-email-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 813961,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user send get request with end point",
+            "match": {
+              "location": "basic_validation_step_def.the_user_send_get_request_with_end_point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45865,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "basic_validation_step_def.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1375431968,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the emails should be in proper format",
+            "match": {
+              "location": "basic_validation_step_def.the_emails_should_be_in_proper_format()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "basic validation",
+    "description": "",
+    "id": "basic-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/basic_validation.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
